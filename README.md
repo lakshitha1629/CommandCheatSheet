@@ -14,6 +14,10 @@ CLI is an older method for interacting with applications and operating systems a
 
 CLI allows a user to perform tasks by entering commands. Its working mechanism is very easy, but it is not user friendly. Users enter the specific command, press “Enter”, and then wait for a response. After receiving the command, the CLI processes it accordingly and shows the output/result on the same screen; command line interpreter is used for this purpose.
 
+---------------------------------------------------
+
+![CommandCheatSheet](https://github.com/lakshitha1629/CommandCheatSheet/blob/main/img/cover.png?raw=true)
+
 ----------------------------------------------------
 
 It’s very common scenario in IT field that people who are familiar with one OS have to learn/work with another OS. I do see many people, who are familiar with Linux commands, looking for their equivalent commands in Windows OS. 
