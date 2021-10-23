@@ -22,3 +22,19 @@ In this Linux/Unix command line cheat sheet:
 - Networking command
 - Process command
 - VI Editing Commands
+
+Command Line Interface (CLI) advantages and disadvantages
+----------------------------------
+
+The advantages of a command line interface are:
+
+- granular control of an OS or application;
+- faster management of a large number of operating systems;
+- ability to store scripts to automate regular tasks; and
+- basic command line interface knowledge to help with troubleshooting, such as network connection issues.
+- The disadvantages of a command line interface are:
+
+GUI is more user-friendly;
+
+- steeper learning curve associated with memorizing commands and complex syntax/arguments; and
+- different commands used in different shells.
