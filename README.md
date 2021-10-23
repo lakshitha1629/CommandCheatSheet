@@ -2,11 +2,19 @@
 
 What Does Command Line Interface (CLI) Mean?
 --------------------------------------------
-Command line interface (CLI) is a text-based interface that is used to operate software and operating systems while allowing the user to respond to visual prompts by typing single commands into the interface and receiving a reply in the same way.CLI is quite different from the graphical user interface (GUI) that is presently being used in the latest operating systems.
 
 Command line interface (CLI) is a text-based interface that is used to operate software and operating systems while allowing the user to respond to visual prompts by typing single commands into the interface and receiving a reply in the same way.
 
-Alternatives to the command line interface include text-based user interface menus (for example, IBM AIX SMIT), keyboard shortcuts, and various desktop metaphors centered on the pointer (usually controlled with a mouse). Examples of this include the Microsoft Windows, DOS Shell, and Mouse Systems PowerPanel. Command-line interfaces are often implemented in terminal devices that are also capable of screen-oriented text-based user interfaces that use cursor addressing to place symbols on a display screen.
+CLI is quite different from the graphical user interface (GUI) that is presently being used in the latest operating systems.
+
+Techopedia Explains Command Line Interface (CLI)
+-------------------------------------------------
+
+CLI is an older method for interacting with applications and operating systems and is used to perform specific tasks required by users. CLI is a text-based interface, unlike the GUI, which uses graphical options that enable the user to interact with the operating system and applications.
+
+CLI allows a user to perform tasks by entering commands. Its working mechanism is very easy, but it is not user friendly. Users enter the specific command, press “Enter”, and then wait for a response. After receiving the command, the CLI processes it accordingly and shows the output/result on the same screen; command line interpreter is used for this purpose.
+
+----------------------------------------------------
 
 It’s very common scenario in IT field that people who are familiar with one OS have to learn/work with another OS. I do see many people, who are familiar with Linux commands, looking for their equivalent commands in Windows OS. 
 
