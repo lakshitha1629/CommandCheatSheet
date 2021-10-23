@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Commandline Interface Webpage</title>
+    <title>Command Cheat Sheet Webpage</title>
     <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/css?family=Open+Sans:300,400"
@@ -53,152 +53,134 @@
       </div>
       <div class="row tm-section-mb">
         <div class="col-lg-12">
-          <div class="tm-timeline-item">
-            <div class="tm-timeline-item-inner">
-              <img
-                src="img/img-01.jpg"
-                alt="Image"
-                class="rounded-circle tm-img-timeline"
-              />
-              <div class="tm-timeline-connector">
-                <p class="mb-0">&nbsp;</p>
-              </div>
-              <div class="tm-timeline-description-wrap">
-                <div class="tm-bg-dark tm-timeline-description">
-                  <h3 class="tm-text-green tm-font-400">
-                    Nulla venenatis purus nec quam
-                  </h3>
-                  <p>
-                    You may tell your co-workers about TemplateMo free stuffs to
-                    download and use for any website project. Thank you for
-                    supporting us.
-                  </p>
-                  <p class="tm-text-green float-right mb-0">
-                    New Event . 12 July 2018
-                  </p>
-                </div>
-              </div>
-            </div>
+           <h2><code>Basic Linux commands</code></h2>
+          <table class="table table-dark">
+            <thead>
+              <tr>
+                <th scope="col">Command</th>
+                <th scope="col">Description</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><code>ls</code></td>
+                <td>Lists all files and directories in the present working directory</td>
+              </tr>
+              <tr>
+                <td><code>ls-R</code></td>
+                <td>Lists files in sub-directories as well</td>
+              </tr>
+              <tr>
+                <td><code>ls-a</code></td>
+                <td>Lists hidden files as well</td>
+              </tr>
+              <tr>
+                <td><code>ls-al</code></td>
+                <td>Lists files and directories with detailed information like permissions,size, owner, etc.</td>
+              </tr>
+              <tr>
+                <td><code>cd or cd ~</code></td>
+                <td>Navigate to HOME directory</td>
+              </tr>
+              <tr>
+                <td><code>cd ..</code></td>
+                <td>Move one level up</td>
+              </tr>
+              <tr>
+                <td><code>cd /</code></td>
+                <td>Move to the root directory</td>
+              </tr>
+              <tr>
+                <td><code>cat > filename</code></td>
+                <td>Move to the root directory</td>
+              </tr>
+              <tr>
+                <td><code>cat filename</code></td>
+                <td>Displays the file content</td>
+              </tr>
+              <tr>
+                <td><code>cat file1 file2 > file3</code></td>
+                <td>Joins two files (file1, file2) and stores the output in a new file (file3)</td>
+              </tr>
+              <tr>
+                <td><code>mv file "new file path"</code></td>
+                <td>Moves the files to the new location</td>
+              </tr>
+              <tr>
+                <td><code>cd /</code></td>
+                <td>Move to the root directory</td>
+              </tr>
+              <tr>
+                <td><code>mv filename</code><br><code>new_file_name</code></td>
+                <td>Renames the file to a new filename</td>
+              </tr>
+              <tr>
+                <td><code>sudo</code></td>
+                <td>Allows regular users to run programs with the security privileges of the superuser or root</td>
+              </tr>
+              <tr>
+                <td><code>rm filename</code></td>
+                <td>Deletes a file</td>
+              </tr>
+              <tr>
+                <td><code>man</code></td>
+                <td>Gives help information on a command</td>
+              </tr>
+              <tr>
+                <td><code>history</code></td>
+                <td>Gives a list of all past commands typed in the current terminal session</td>
+              </tr>
+              <tr>
+                <td><code>clear</code></td>
+                <td>Clears the terminal</td>
+              </tr>
+              <tr>
+                <td><code>mkdir directoryname</code></td>
+                <td>Deletes a directory</td>
+              </tr>
+              <tr>
+                <td><code>rmdir</code></td>
+                <td>Gives a list of all past commands typed in the current terminal session</td>
+              </tr>
+              <tr>
+                <td><code>mv</code></td>
+                <td>Renames a directory</td>
+              </tr>
+              <tr>
+                <td><code>pr -x</code></td>
+                <td>Divides the file into x columns</td>
+              </tr>
+              <tr>
+                <td><code>pr -h</code></td>
+                <td>Assigns a header to the file</td>
+              </tr>
+              <tr>
+                <td><code>pr -n</code></td>
+                <td>Denotes the file with Line Numbers</td>
+              </tr>
+              <tr>
+                <td><code>lp -nc , lpr c</code></td>
+                <td>Prints “c” copies of the File</td>
+              </tr>
+              <tr>
+                <td><code>apt-get</code></td>
+                <td>Specifies name of the printer</td>
+              </tr>
+              <tr>
+                <td><code>mail -s 'subject' -c 'cc-address'</code><br><code>-b 'bcc-address' 'to-address'</code></td>
+                <td>Command to send email</td>
+              </tr>
+              <tr>
+                <td><code>mail -s "Subject"</code><br><code>to-address < Filename</code></td>
+                <td>Command to send email with attachment</td>
+              </tr>
 
-            <div class="tm-timeline-connector-vertical"></div>
-          </div>
 
-          <div class="tm-timeline-item">
-            <div class="tm-timeline-item-inner">
-              <img
-                src="img/img-02.jpg"
-                alt="Image"
-                class="rounded-circle tm-img-timeline"
-              />
-              <div class="tm-timeline-connector">
-                <p class="mb-0">&nbsp;</p>
-              </div>
-              <div class="tm-timeline-description-wrap">
-                <div class="tm-bg-dark-light tm-timeline-description">
-                  <h3 class="tm-text-cyan tm-font-400">
-                    Vestibulum ante ipsum primis
-                  </h3>
-                  <p>
-                    In imperdiet nisl quis sapien pellentesque, non rhoncus elit
-                    sollicitudin. Donec pharetra egestas magna at eleifend. Sed
-                    non magna vitae enim tempus faucibus.
-                  </p>
-                  <p class="tm-text-cyan float-right mb-0">
-                    Another Story . 9 July 2018
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="tm-timeline-connector-vertical"></div>
-          </div>
-
-          <div class="tm-timeline-item">
-            <div class="tm-timeline-item-inner">
-              <img
-                src="img/img-03.jpg"
-                alt="Image"
-                class="rounded-circle tm-img-timeline"
-              />
-              <div class="tm-timeline-connector">
-                <p class="mb-0">&nbsp;</p>
-              </div>
-              <div class="tm-timeline-description-wrap">
-                <div class="tm-bg-dark tm-timeline-description">
-                  <h3 class="tm-text-yellow tm-font-400">
-                    Pellentesque accumsan convallis
-                  </h3>
-                  <p>
-                    Suspendisse felis massa, maximus sed mauris at, elementum
-                    fermentum nisl. Aliquam quis elit vel ipsum ornare
-                    sollicitudin. Nulla et dolor eget nisi varius convallis.
-                  </p>
-                  <p class="tm-text-yellow float-right mb-0">
-                    Latest News . 30 June 2018
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="tm-timeline-connector-vertical"></div>
-          </div>
-
-          <div class="tm-timeline-item">
-            <div class="tm-timeline-item-inner">
-              <img
-                src="img/img-04.jpg"
-                alt="Image"
-                class="rounded-circle tm-img-timeline"
-              />
-              <div class="tm-timeline-connector">
-                <p class="mb-0">&nbsp;</p>
-              </div>
-              <div class="tm-timeline-description-wrap">
-                <div class="tm-bg-dark-light tm-timeline-description">
-                  <h3 class="tm-text-orange tm-font-400">
-                    Lorem ipsum dolor sit amet
-                  </h3>
-                  <p>
-                    Phasellus at quam facilisis sem congue lacinia. Fusce risus
-                    velit, bibendum in magna eu, sollicitudin pellentesque
-                    dolor. Nulla facilisi. Fusce libero mauris, maximus et
-                    liqula at.
-                  </p>
-                  <p class="tm-text-orange float-right mb-0">
-                    New Project . 22 June 2018
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
+            </tbody>
+          </table>
         </div>
       </div>
       <!--  row -->
-      <hr />
-      <div class="row tm-section-mb tm-section-mt">
-        <div class="col-lg-4 col-md-4 col-sm-12 pr-lg-5 mb-md-0 mb-4">
-          <h3 class="mt-2 mb-3 tm-text-gray">Nunc dictum consequat</h3>
-          <p>
-            Integer imperdiet aliquet lobortis. In in metus risus. Pellentesque
-            pulvinar venenatis dui id rutrum. In pharetra neque et eleifend
-            venenatis.
-          </p>
-        </div>
-        <div class="col-lg-4 col-md-4 col-sm-12 pr-lg-5 mb-md-0 mb-4">
-          <h3 class="mt-2 mb-3 tm-text-gray">Morbi ultrices tellus</h3>
-          <p>
-            Integer imperdiet aliquet lobortis. In in metus risus. Pellentesque
-            pulvinar venenatis dui id rutrum. In pharetra neque et eleifend
-            venenatis.
-          </p>
-        </div>
-        <div class="col-lg-4 col-md-4 col-sm-12">
-          <h3 class="mt-2 mb-3 tm-text-gray">Suspendisse dolor tortor</h3>
-          <p>
-            Integer imperdiet aliquet lobortis. In in metus risus. Pellentesque
-            pulvinar venenatis dui id rutrum. In pharetra neque et eleifend
-            venenatis.
-          </p>
-        </div>
-      </div>
       <hr />
       <!-- Footer -->
       <footer class="row mt-5 mb-5">
